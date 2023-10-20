@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.containerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.comments-cardd {
+    width: 60vw;
+    height: 80vh;
+    overflow-y: scroll;
+    background-color: #eee;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.193);
+    border-radius: 10px;
+}
+.comments-infoo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    padding: 15px 30px;
+    position: fixed;
+    top: 10vh;
+    left: 20vw;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.193);
+}
+.xicon{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+}
+.xicon:hover{
+    color: #17b8b8;
+}
+.comments-cardd .pn{
+    margin-top: 9vh;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.comments-cardd .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.comments-cardd .image img{
+    width: 25vw;
+    height: 30vh;
+}
+.total-commentss{
+    padding-top: 20px;
+    margin-bottom: 8vh;
+}
+.comment-cardd {
+    display: flex;
+    align-items: center;
+    width: 53vw;
+    margin-left: 4vw;
+}
+.comment-cardd span {
+    font-weight: bold;
+}
+.comment-cardd .commentt {
+    border: none;
+    border-radius: 20px;
+    min-width: 30vw;
+    max-width: 45vw;
+    min-height: 5vh;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.193);
+}
+.your-comment{
+    background-color: #eee;
+    position: fixed;
+    bottom: 10vh;
+    right: 20vw;
+    width: 60vw;
+    border-radius: 0 0 0 10px;
+    padding-left: 5vw;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.193);
+}
+.your-comment input{
+    outline: none;
+}
+.your-comment button{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid #17b8b8;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
+.your-comment button:hover{
+    background-color: #17b8b8;
+}
+

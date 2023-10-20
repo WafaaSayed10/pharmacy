@@ -1,0 +1,65 @@
+.mmenu{
+    width: 20vw;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.621);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    border-radius: 0 0 10px 10px;
+    display: none;
+    z-index: 1000;
+}
+.options{
+    width: 20vw;
+    height: 45vh;
+}
+.linkss{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 20vw;
+    height: 40vh;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.linkk{
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 18vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.linkk a{
+    color: white;
+    text-decoration-line: none;
+    padding: 0;
+    border-radius: 10px;
+    width: 10vw;
+}
+.linkk:hover, .linkk:hover a {
+    color: #17B8B8;
+    background-color: rgba(0, 0, 0, 0.621);
+}
+.linkk a:hover {
+    color: #17B8B8;
+    background-color: rgba(0, 0, 0, 0.621);
+}
+.closee{
+    width: 20vw;
+}
+.closee .closeee{
+    background-color: white;
+    color: white;
+    width: 50px;
+    height: 5px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.closee .closeee:hover{
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.663);
+}
